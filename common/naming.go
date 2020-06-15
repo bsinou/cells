@@ -233,9 +233,13 @@ var (
 
 // Update Server default values.
 var (
-	UpdateDefaultChannel   = "stable"
-	UpdateDefaultServerUrl = "https://updatecells.pydio.com/"
-	UpdateDefaultPublicKey = `-----BEGIN PUBLIC KEY-----\nMIIBCgKCAQEAwh/ofjZTITlQc4h/qDZMR3RquBxlG7UTunDKLG85JQwRtU7EL90v\nlWxamkpSQsaPeqho5Q6OGkhJvZkbWsLBJv6LZg+SBhk6ZSPxihD+Kfx8AwCcWZ46\nDTpKpw+mYnkNH1YEAedaSfJM8d1fyU1YZ+WM3P/j1wTnUGRgebK9y70dqZEo2dOK\nn98v3kBP7uEN9eP/wig63RdmChjCpPb5gK1/WKnY4NFLQ60rPAOBsXurxikc9N/3\nEvbIB/1vQNqm7yEwXk8LlOC6Fp8W/6A0DIxr2BnZAJntMuH2ulUfhJgw0yJalMNF\nDR0QNzGVktdLOEeSe8BSrASe9uZY2SDbTwIDAQAB\n-----END PUBLIC KEY-----`
+	UpdateDefaultChannel   = "dev"
+	UpdateDefaultServerUrl = "https://cells-pub-dev.ci.pyd.io/"
+	UpdateDefaultPublicKey = `-----BEGIN PUBLIC KEY-----\nMIIBCgKCAQEA1BhZDjn1L65gjrb5Te04PbjGMyNho8Yc7Ob2GsUCuVjuTOgr2O3I\nbjGBGWxolL7Kn6wAWLt6TBC3vWuCDHCmEMY4jLM92RE/lxZhKNIxn1MP6IFGC9Pt\nS7SrYlp+h3SVIqH8GwKTn1FZ3d0jWrjDBZ0J4RqOvEvX4Ylfw6GI+HaGoQnwL9W3\nAnWiMoe/PjL+hyA64qjMqE9PIpZSyuBMZMFZU5b+M1m7+uwEMKM1MYGiO1exOSqj\ny8WXuoOheK5kz2DSQo1/WaGemoQMrdnRpwxlqc+8fqUgK8kbxjIsTvt/SJNrq9B9\nAbivsF9Ke3fwCSoONM/SM2BYLFoSIH23sQIDAQAB\n-----END PUBLIC KEY-----`
+
+	// UpdateDefaultChannel   = "stable"
+	// UpdateDefaultServerUrl = "https://updatecells.pydio.com/"
+	// UpdateDefaultPublicKey = `-----BEGIN PUBLIC KEY-----\nMIIBCgKCAQEAwh/ofjZTITlQc4h/qDZMR3RquBxlG7UTunDKLG85JQwRtU7EL90v\nlWxamkpSQsaPeqho5Q6OGkhJvZkbWsLBJv6LZg+SBhk6ZSPxihD+Kfx8AwCcWZ46\nDTpKpw+mYnkNH1YEAedaSfJM8d1fyU1YZ+WM3P/j1wTnUGRgebK9y70dqZEo2dOK\nn98v3kBP7uEN9eP/wig63RdmChjCpPb5gK1/WKnY4NFLQ60rPAOBsXurxikc9N/3\nEvbIB/1vQNqm7yEwXk8LlOC6Fp8W/6A0DIxr2BnZAJntMuH2ulUfhJgw0yJalMNF\nDR0QNzGVktdLOEeSe8BSrASe9uZY2SDbTwIDAQAB\n-----END PUBLIC KEY-----`
 )
 
 // Logging Levels.
